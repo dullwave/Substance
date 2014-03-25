@@ -10,7 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'pg'
 gem 'devise'
-gem 'jquery-ui-rails'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
 
 group :doc do
   gem 'sdoc', require: false
