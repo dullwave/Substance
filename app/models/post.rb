@@ -18,4 +18,5 @@ class Post < ActiveRecord::Base
   validates_presence_of :content
 
   acts_as_commentable
+  acts_as_taggable
 end

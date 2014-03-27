@@ -13,6 +13,7 @@ gem 'pg'
 gem 'devise'
 gem 'acts_as_follower'
 gem 'acts_as_commentable'
+gem 'acts-as-taggable-on'
 
 group :doc do
   gem 'sdoc', require: false
