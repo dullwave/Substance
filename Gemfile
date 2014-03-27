@@ -11,8 +11,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'pg'
 gem 'devise'
-gem 'omniauth-facebook'
-gem 'omniauth-twitter'
+gem 'acts_as_follower'
+gem 'acts_as_commentable'
 
 group :doc do
   gem 'sdoc', require: false
