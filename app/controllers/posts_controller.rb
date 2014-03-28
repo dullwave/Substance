@@ -10,9 +10,9 @@ class PostsController < ApplicationController
     @user = current_user
     @user.posts << Post.new(post_params)
     if @user.save
-      flash[:alert] = "works!!!!!!"
+      flash[:alert] = "Submitted!"
     else
-      flash[:error] = "Doesn't work!!!!!!"
+      flash[:error] = "Sorry, something went wrong. Try again."
     end
     redirect_to user_posts_path
   end
