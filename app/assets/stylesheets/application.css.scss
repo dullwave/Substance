@@ -16,7 +16,7 @@
  */
 
 body {
-  font-family: "Roboto", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
  }
 
 input {
@@ -62,12 +62,24 @@ ul {
 #logo {
   font-family: 'Audiowide', cursive;
   text-shadow: 1px 1px 1px #000;
-  font-size: 24px;
+  font-size: 45px;
   position: fixed;
-  left: 35px;
-  top: 30px;
-  padding: 15px;
+  // left: 15px;
+  // top: 30px;
+  padding: 10px;
 }
+#byline-1 {
+  font-size: 16px;
+  position: fixed;
+  left: 85px;
+  top: 60px;
+}
+// #byline-2 {
+//   font-size: 16px;
+//   position: fixed;
+//   left: 165px;
+//   top: 75px;
+// }
 
 #each_post {
   padding: 15px;
