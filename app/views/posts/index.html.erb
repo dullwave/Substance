@@ -2,7 +2,7 @@
 
 <dl>
   <% @posts.each do |post| %>
-    <div id='each_post'><dt><%= link_to post.title, user_posts_path %></dt>
+    <div id='each_post'><dt><%= link_to post.title, user_post_path(@user, post) %></dt>
     <dd><%= truncate(post.content, length: 350) %></dd></div>
   <% end %>
 </dl>
